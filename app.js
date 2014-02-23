@@ -7,10 +7,8 @@ var server = restify.createServer({
 
 mongoose.connect('mongodb://localhost/vdc_development');
 
-var UniversityController = require('./controllers/university_controller.js');
-
-server.get('/university/:id', UniversityController.getUniversity);
-server.get('/universities', UniversityController.getUniversities);
+module.exports.server = server;
+routes = require('./config/routes.js');
 
 server.listen(8080, function() {
 	console.log('%s listening at %s', server.name, server.url);
