@@ -10,7 +10,8 @@
   "dependencies": {},
   "devDependencies": {
     "restify": "",
-    "bunyan": ""
+    "bunyan": "",
+    "mongoose": ""
   },
   "engines": {
     "node": ">=0.10.0"
