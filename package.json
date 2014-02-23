@@ -1,0 +1,25 @@
+{
+  "name": "restfy",
+  "version": "0.1.0",
+  "description": "Studing RestFy Node API engine",
+  "main": "api.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leandrofreire08/restfy.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "restify": "",
+    "bunyan": "",
+    "mongoose": ""
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "Leandro Augusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrofreire08/restfy/issues"
+  },
+  "homepage": "https://github.com/leandrofreire08/restfy"
+}
