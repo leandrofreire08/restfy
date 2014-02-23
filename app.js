@@ -7,6 +7,7 @@ var server = restify.createServer({
 
 mongoose.connect('mongodb://localhost/vdc_development');
 
+// Turn server available
 module.exports.server = server;
 routes = require('./config/routes.js');
 
